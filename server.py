@@ -29,7 +29,7 @@ class Battlesnake(object):
         # TODO: Use this function to decide how your snake is going to look on the board.
         data = cherrypy.request.json
         print("START")
-        print("GET READY TO BE DESTROYED BY THE TIANMING_SNAKE")
+        print("GET READY TO BE DESTROYED BY THE TIANMING")
         return {"color": "#888888", "headType": "pixel", "tailType": "bolt"}
 
     @cherrypy.expose
